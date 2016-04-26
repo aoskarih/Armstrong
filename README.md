@@ -17,7 +17,6 @@ Armstrong's numbers
         static void numset()
         {
             depth++;
-            
             for(int i = 0; i <= 9; i++)
             {
                 if(depth < size)
@@ -31,7 +30,6 @@ Armstrong's numbers
                 }
                 
                 number[depth - 1] = i;
-                
                 halb(maxDepth);
             }
             depth--;
