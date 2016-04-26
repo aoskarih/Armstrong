@@ -2,16 +2,12 @@
 Armstrong's numbers
 
 
-    public class Mqtt {
+    public class Mqtt 
+    {
         static int size = 5;
         static int depth = 0;
         static int maxDepth = 0;
-        
         static int[] number = new int[size];
-        int[] length = new int[size];
-        int[] counters = new int[size];
-        static boolean gg = true;
-        
         
         public static void main(String[] args) 
         {        
